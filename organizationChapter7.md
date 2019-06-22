@@ -116,9 +116,9 @@
 
 ### *Direct Mapped Cache (直接映射)*
 
-![](img\directmap.png)
+![](img/directmap.png)
 
-- Block address **MOD** Numbers of Cache Block![](img\direct.png)
+- Block address **MOD** Numbers of Cache Block![](img/direct.png)
 
 - Mapping an address to Multiword Cache Block
   - eg.Consider a cache with 64 blocks and a block size of 16 bytes.
@@ -129,7 +129,7 @@
 
 ### *Fully associative (全局映射)*
 
-- ![](img\blockplacement.png)
+- ![](img/blockplacement.png)
 
 - In a direct-mapped cache, there is only one block that can be replaced.
 - In set-associative and fully-associative caches, there are N blocks (where N is the degree of associativeity)
@@ -144,7 +144,7 @@
 
 - Often, each cache block also has a **valid bit** that tells if the contents of the cache block are valid.
 
-![](img\blockaddress.png)
+![](img/blockaddress.png)
 
 - The **index** field selects:
 
@@ -362,18 +362,18 @@ Taking advantage of spatial locality to lower miss rates with many word in the b
 
 - **Page Tables:** 
 
-![](img\pagetable.png)
+![](img/pagetable.png)
 
 - Virtual memory systems use **fully associative** mapping method
 
-![](img\pagetables.png)
+![](img/pagetables.png)
 
 #### **Making Address Translation Fast-----TLB**
 
 - A cache for address translations: **T**ranslation **L**ook aside **B**uffer.
 
-![](img\TLB.png)
+![](img/TLB.png)
 
 - TLB and cache
 
-![](img\TLBandCache.png)
+![](img/TLBandCache.png)
